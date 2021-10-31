@@ -149,10 +149,8 @@ public class JXmodem {
      * occurs, then a FileNotFoundException will be thrown. See
      * <a href="#{@link}">{@link FileOutputStream}</a> for more information.
      * 
-     * @param  charset     the character set with which to encode the received
-     *                     message.
-     * @return             Upon successful transmission, the received message as
-     *                     a string. Otherwise, null.
+     * @param  savePath    the path where the file should be saved
+     * @return             True if the transmission succeeded, false otherwise
      * @throws IOException If any non-Xmodem-related I/O error occurs. See
      *                     <a href="#{@link}">{@link InputStream}</a> and
      *                     <a href="#{@link}">{@link OutputStream}</a> for more
