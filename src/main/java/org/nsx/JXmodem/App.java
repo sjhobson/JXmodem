@@ -6,7 +6,7 @@ import java.security.MessageDigest;
 import java.util.Arrays;
 
 /**
- * Hello world!
+ * quick and dirty test framework
  *
  */
 public class App 
@@ -162,7 +162,7 @@ public class App
         boolean result = false;
         var xm = new JXmodem(inStream, outStream);
         while (!result)
-            result = xm.sendFile("cat.png");
+            result = xm.receiveFile("catFromEx.png");
         System.out.println("RESULT: " + result);
         inStream.close();
         outStream.close();
