@@ -67,7 +67,8 @@ boolean sendSuccess = xm.sendFile(outFilename); // returns true if the send succ
 
 // receiving a file
 String inFilename = "path/to/newFile.xyz";
-boolean receiveSuccess = xm.receiveFile(inFilename); // returns true if the file was received and saved successfully
+boolean receiveSuccess = xm.receiveFile(inFilename); // returns true if the file was received 
+                                                     // and saved successfully
 ```
 
 ## Still to do
