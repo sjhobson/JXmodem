@@ -6,7 +6,7 @@ This library is a port of Georges Menie's Xmodem routines to Java, adapted to us
 
 M. Menie's original C code can be found here: https://www.menie.org/georges/embedded/
 
-The library is written to be pure Java and kept relatively simple and fast. It supports Xmodem, Xmodem-CRC, and XModem-1k. For Xmodem-1k and Xmodem-CRC, CRC calculation is performed via a pre-calculated lookup table.
+The library is written in pure Java. It supports Xmodem, Xmodem-CRC, and XModem-1k. For Xmodem-1k and Xmodem-CRC, CRC calculation is performed via a pre-calculated lookup table.
 
 The library has been tested for accuracy using the `sx` and `rx` programs both on the same machine and over a local area network. Further testing under different conditions is both welcome and encouraged.
 
