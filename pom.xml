@@ -6,11 +6,32 @@
 
   <groupId>org.nsx.JXmodem</groupId>
   <artifactId>JXmodem</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>0.1</version>
 
   <name>JXmodem</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
+  <description>
+    An Xmodem library with send and recieve capability written in pure Java. 
+    Supports xmodem, xmodem-crc, and xmodem-1k
+  </description>
+  <url>https://github.com/neonlemmykoopa/JXmodem</url>
+  <licenses>
+    <license>
+      <name>The 3-Clause BSD License</name>
+      <url>https://opensource.org/licenses/BSD-3-Clause</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <name>Samuel Hobson</name>
+      <email>brothersamjoseph@gmail.com</email>
+    </developer>
+  </developers>
+
+  <scm>
+    <connection>scm:git:git@github.com:neonlemmykoopa/JXmodem.git</connection>
+    <developerConnection>scm:git:ssh://github.com:neonlemmykoopa/JXmodem.git</developerConnection>
+    <url>https://github.com/neonlemmykoopa/JXmodem/tree/master/</url>
+  </scm>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -21,9 +42,15 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter</artifactId>
+      <version>5.7.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.assertj</groupId>
+      <artifactId>assertj-core</artifactId>
+      <version>3.19.0</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -52,6 +79,24 @@
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
           <version>3.0.2</version>
+          <executions>
+            <execution>
+              <id>default-jar</id>
+              <phase>package</phase>
+              <goals>
+                <goal>jar</goal>
+              </goals>
+              <configuration>
+                <excludes>
+                  <exclude>org/nsx/JXmodem/App.class</exclude>
+                  <exclude>org/nsx/JXmodem/App$1.class</exclude>
+                  <exclude>org/nsx/JXmodem/App$2.class</exclude>
+                  <exclude>org/nsx/JXmodem/App$3.class</exclude>
+                  <exclude>org/nsx/JXmodem/App$4.class</exclude>
+                </excludes>
+              </configuration>
+            </execution>
+          </executions>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
