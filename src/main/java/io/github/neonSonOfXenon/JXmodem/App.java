@@ -1,4 +1,4 @@
-package org.nsx.JXmodem;
+package io.github.neonSonOfXenon.JXmodem;
 
 import java.io.*;
 import java.net.*;

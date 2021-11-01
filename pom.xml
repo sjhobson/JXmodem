@@ -4,7 +4,7 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.nsx.JXmodem</groupId>
+  <groupId>io.github.neonSonOfXenon.JXmodem</groupId>
   <artifactId>JXmodem</artifactId>
   <version>0.1</version>
 
@@ -13,7 +13,7 @@
     An Xmodem library with send and recieve capability written in pure Java.
     Supports xmodem, xmodem-crc, and xmodem-1k
   </description>
-  <url>https://github.com/neonlemmykoopa/JXmodem</url>
+  <url>https://github.com/neonSonOfXenon/JXmodem</url>
   <licenses>
     <license>
       <name>The 3-Clause BSD License</name>
@@ -28,9 +28,9 @@
   </developers>
 
   <scm>
-    <connection>https://github.com/neonlemmykoopa/JXmodem.git</connection>
-    <developerConnection>scm:git:ssh://github.com:neonlemmykoopa/JXmodem.git</developerConnection>
-    <url>https://github.com/neonlemmykoopa/JXmodem/tree/master/</url>
+    <connection>https://github.com/neonSonOfXenon/JXmodem.git</connection>
+    <developerConnection>scm:git:ssh://github.com:neonSonOfXenon/JXmodem.git</developerConnection>
+    <url>https://github.com/neonSonOfXenon/JXmodem/tree/master/</url>
   </scm>
 
   <properties>

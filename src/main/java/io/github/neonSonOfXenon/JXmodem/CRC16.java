@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.nsx.JXmodem;
+package io.github.neonSonOfXenon.JXmodem;
 
 /**
  * CRC16 CCITT table implementation for Xmodem. This is a port of Georges

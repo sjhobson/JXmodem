@@ -28,7 +28,7 @@
  * POSSIBILITY OF SUCH DAMAGE.
  */
 
-package org.nsx.JXmodem;
+package io.github.neonSonOfXenon.JXmodem;
 
 import java.io.ByteArrayInputStream;
 import java.io.ByteArrayOutputStream;

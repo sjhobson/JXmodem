@@ -1,4 +1,4 @@
-package org.nsx.JXmodem;
+package io.github.neonSonOfXenon.JXmodem;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
