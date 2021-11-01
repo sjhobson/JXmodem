@@ -112,7 +112,6 @@ public class App
                     result = xmB.receiveFile("catII.png");
                 }
                 catch (IOException e) {
-                    // TODO Auto-generated catch block
                     e.printStackTrace();
                 }
                 System.out.println("Thread B result: " + result);
