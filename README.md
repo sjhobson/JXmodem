@@ -10,6 +10,19 @@ The library is written in pure Java. It supports Xmodem, Xmodem-CRC, and XModem-
 
 The library has been tested for accuracy using the `sx` and `rx` programs both on the same machine and over a local area network. Further testing under different conditions is both welcome and encouraged.
 
+## Add as a dependency
+
+Add the following dependency to your projects `pom.xml` file:
+
+```xml
+<dependency>
+    <groupId>io.github.neonSonOfXenon.JXmodem</groupId>
+    <artifactId>JXmodem</artifactId>
+    <version>0.1a</version>
+</dependency>
+
+```
+
 ## Usage
 
 Usage is fairly simple. All you need is an InputStream and OutputStream to initialize JXmodem:
@@ -77,4 +90,3 @@ The following is a list of improvements still needed:
 
 * Clean up debugging printouts
 * Generate Javadoc
-* Upload to Maven Central repository (pending)
